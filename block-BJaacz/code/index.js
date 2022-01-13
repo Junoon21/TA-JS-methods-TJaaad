@@ -64,6 +64,7 @@ function addFiveToArray (arr) {
   for(let number of arr){
     if(addTwo(number)){
       newArray.push = number;
+      
     }
  
   }

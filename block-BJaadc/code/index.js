@@ -1,15 +1,15 @@
 let message = 'If you are still thinking the answer is no!';
 
 // Log the length of the variable message like `The length of [message] is [length]`
-
+console.log(`The length of "${message}" is ${message.length}`);
 // Log the character at index 0 of the variable message like `The first character of [message] is [character]`
-
+`The first character of "${message}" is ${message.charAt(0)}`
 // Log the last character of message using length like `The last character of [message] is [character]`
-
+`The last character of ${message} is ${message.charAt(40)}`;
 // Log the index of word "you" in message
-
+`The last character of ${message} is ${message.charAt(3)}`;
 // Log the index of word "still" in message
-
+`The last character of ${message} is ${message.charAt(11)}`;
 // Log the index of word "answers" in message
 
 // Log true or false based on whether the word "answers" exist in message or not
@@ -43,3 +43,38 @@ let message = 'If you are still thinking the answer is no!';
 // Split all the words in message (split by " " space) and store it in a variable messageArray
 
 // Log all the words of messageArray
+    //1st     2nd       4th
+for(let i=0;i <= Number;i++){
+    //3rd
+    numb+=i;
+}
+numb=6;
+Number=4;
+i=2;
+// while
+let i=0; //1st
+        //2nd
+while(i) <= Number){
+    let i=0;
+    numb+=i;
+    i++;
+}
+
+////
+function sumOrProductOfN(numb, operation) {
+    if (operation == "sum") {
+        let sum = 0;
+        for (let i = 5; i <= numb; i++) {
+            sum += i;
+        }
+        return sum;
+    } else if (operation == "product") {
+        let product = 1;
+        for (let i = 1; i <= numb; i++) {
+            product *= i;
+        }
+        return product;
+    } else alert(`Not a valid Input`);
+}
+sumOrProductOfN(4,"sum"); //1st
+sum=10;

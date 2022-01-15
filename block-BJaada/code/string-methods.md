@@ -138,6 +138,8 @@ text.replace('ipsum','lorem');
 'lorem lorem lorem ipsum'
 text.replace('ipsum');
 'lorem undefined lorem ipsum'
+fruit.replace('a','🍎')
+'🍎pple'
 
 `replaceAll`- used to replace all the strings with the given new string.
 let text = "lorem ipsum lorem ipsum";

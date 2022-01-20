@@ -10,13 +10,13 @@ Clone the array before using sort method: [...arr]
 
 */
 // - Find the index of `101` in numbers
-let 
+numbers.indexOf(101);
 // - Find the last index of `9` in numbers
-
+numbers.lastIndexOf(9);
 // - Convert value of strings array into a sentance like "This is a collection of words"
-
+strings.join(' ');
 // - Add two new words in the strings array "called" and "sentance"
-
+strings.splice(strings.length,0,"called", "sentance");
 // - Again convert the updated array (strings) into sentance like "This is a collection of words called sentance"
 
 // - Remove the first word in the array (strings)

@@ -9,9 +9,8 @@ While using methods like push, pop, sort etc it mutates the original array.
 Clone the array before using sort method: [...arr]
 
 */
-
 // - Find the index of `101` in numbers
-
+let 
 // - Find the last index of `9` in numbers
 
 // - Convert value of strings array into a sentance like "This is a collection of words"

@@ -77,11 +77,11 @@ let tripleNumbers = numbersThree.map( (num) => num*3 );
 // Create a new variable named halfNumbers that store the numberThree array (each element should be divided by 2). Use map
 let halfNumbers = numbersThree.map( (num) => num/2);
 // Create a new variable named oddNumbers that store all the odd numbers in numbersThree array
-let oddNumbers = numbersThree.filter((num) => num%2 !==0 );
+let oddNumbers = numbersThree.filter((num) => num%2 !== 0 );
 // Create a new variable named evenNumbers that store all the even numbers in numbersThree array
-let evenNumbers = numbersThree.filter((num) => num%2 ===0 );
+let evenNumbers = numbersThree.filter((num) => num%2 === 0 );
 // Find the index of 10 in numbersThree array
-numbersThree.findIndex((num) => num===10);
+numbersThree.findIndex((num) => num === 10);
 ////  ///  //////  ///  //////     /  why re we usinf find?
 // Reverse the values of numbersThree array
 numbersThree.reverse();

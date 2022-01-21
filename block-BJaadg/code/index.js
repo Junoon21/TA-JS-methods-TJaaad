@@ -69,37 +69,38 @@ let val = quote.indexOf("o",8);
 /*
 13. Find the last index of letter "a" in quote.
 */
-
+let val = quote.lastIndexOf("a")
 /*
 14. Find the second last index of letter "a" in quote.
 */
-
+let val = quote.lastIndexOf("a",quote.length-3)
 /*
 15. Make the quote 70 character long. If it has less characters add rest as .......
 Example: "Hello" (convert to 10 characters) => "Hello....."
 Store the output in a new variable
 */
-
+let endVar = quote.padEnd(70,".");
 /*
 16. Do same as (15) but the ... should come in start. Store the output in a new variable
 */
-
+let startVar = quote.padStart(70,".");
 /*
 17. Log the repeat of "Hello World!" 10 times.
 */
-
+console.log("hello world".repeat(10));
 /*
 18. Replace today to tomorrow in quote.
 */
-
+quote.replace("today","tomorrow");
 /*
 19. Replace Stark to Lannister in quoteTo
 */
-
+quote.replace("stark","lannister");
 /*
 20. Make the quote of length 30 and put ... at the end. (use slice)
 */
-
+quote.slice(0,30)+"...";
 /*
 21. Find out does quote, from, to starts with "A"
 */
+quote.startsWith("A");

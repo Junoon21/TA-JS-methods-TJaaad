@@ -18,37 +18,47 @@ strings.join(' ');
 // - Add two new words in the strings array "called" and "sentance"
 strings.splice(strings.length,0,"called", "sentance");
 // - Again convert the updated array (strings) into sentance like "This is a collection of words called sentance"
-
+strings.join(" ");
 // - Remove the first word in the array (strings)
-
+strings.splice(0,1);
 // - Find all the words that contain 'is' use string method 'includes'
-
+let value = strings.filter((string) => string.includes("is"));
 // - Find all the words that contain 'is' use string method 'indexOf'
-
+let value = strings.filter((string) => string.indexOf("is")!== -1
+);
 // - Check if all the numbers in numbers array are divisible by three use array method (every)
-
+strings.every((string) => string % 3 === 0);
 // -  Sort Array from smallest to largest
-
+[...numbers].sort((a,b) => a-b);
 // - Remove the last word in strings
-
+strings.pop();
 // - Find largest number in numbers
-
+let largest = [...numbers].sort((a,b) => a-b).pop();
 // - Find longest string in strings
-
+let longest = strings.sort((a,b) => a.length - b.length).pop();
 // - Find all the even numbers
-
+let even = numbers.filter((num) => num % 2 === 0 );
 // - Find all the odd numbers
-
+let odd = numbers.filter((num) => num % 2 !== 0);
 // - Place a new word at the start of the array use (unshift)
-
+numbers.unshift("newword");
 // - Make a subset of numbers array [18,9,7,11]
-
+numbers.slice(3,7);
 // - Make a subset of strings array ['a','collection']
-
+strings.slice(2,3);
 // - Replace 12 & 18 with 1221 and 1881
-
+console.log(numbers.map((num) => {
+  if( num == 12) {
+    return 1221;
+  } else if ( num == 18 ){
+    return 1881;
+  }
+  else {
+    return num;
+  }
+}));
 // - Replace words in strings array with the length of the word
-
+let stringl = strings.map((string) => string.length);
 // - Find the sum of the length of words using above question
 
 // - Customers Array

@@ -14,13 +14,18 @@ let persons = [
 ];
 
 // Create an array peopleName and store value of sex key from persons array
-
+let peopleName = persons.map((person) => person.sex);
 // Create an array peopleGrade and store the value of grade key from persons array
-
+let peopleGrade = persons.map((person) => person.grade);
 // Create an array peopleSex and store the value of sex key from persons array
-
+let peopleSex = persons.map((person) => person.sex);
 // Log the filtered named of people in peopleName that starts with 'J' or 'P'
-
+let peopleName = persons.filter((person) => {
+  if( person.name.startsWith('J') || person.name.startsWith('P') ) {
+return person.name;
+}
+}
+);
 // Log the length of filtered named of people in peopleName that starts with 'A' and 'C'
 
 // Log all the filtered male ('M') in persons array

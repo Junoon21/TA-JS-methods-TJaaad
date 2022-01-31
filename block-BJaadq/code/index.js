@@ -8,6 +8,8 @@ function peopleByHouses() {
   // your code goes here
 }
 
+
+
 function everyone() {
   // your code goes here
 }

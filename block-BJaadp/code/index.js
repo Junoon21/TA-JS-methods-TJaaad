@@ -1,4 +1,4 @@
-let persons = [
+    let persons = [
   { name: 'John', grade: 8, sex: 'M' },
   { name: 'Sarah', grade: 12, sex: 'F' },
   { name: 'Bob', grade: 16, sex: 'M' },
